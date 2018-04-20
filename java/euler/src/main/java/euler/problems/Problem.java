@@ -35,15 +35,15 @@ public interface Problem {
 
 				List<String> input = Files.readAllLines(inputPath, StandardCharsets.UTF_8);
 				
-				String expectedOutput = new String(Files.readAllBytes(outputPath), StandardCharsets.UTF_8);
+				String expectedOutput = new String(Files.readAllBytes(outputPath), StandardCharsets.UTF_8).trim();
 				
-				String output = solve(input);
+				String output = solve(input).trim();
 				
 				StringBuilder sb = new StringBuilder();
 				
 				sb.append(className).append('.').append(testPath.getFileName()).append(": ");
 				
-				if (expectedOutput.trim().equalsIgnoreCase(output.trim())) {
+				if (expectedOutput.equalsIgnoreCase(output)) {
 					sb.append("PASSOU");
 				} else {
 					sb.append("FALHOU - Valor esperado: ")
