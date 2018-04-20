@@ -12,12 +12,12 @@
 <!-- /code_chunk_output -->
 
 ## Informações
-Cada problema listado neste documento pode ser resolvido utilizando o projeto base ```euler```. Para tal, você deve criar uma classe que siga as seguintes regras:
-- Deve estar dentro do pacote ```euler.problems```
-- Realizar a interface [euler.problems.Problem](src/main/java/euler/problems/Problem.java)
+Cada problema listado neste documento pode ser resolvido utilizando o projeto base `euler`. Para tal, você deve criar uma classe que siga as seguintes regras:
+- Deve estar dentro do pacote `euler.problems`
+- Implementar a interface [euler.problems.Problem](src/main/java/euler/problems/Problem.java)
 - Deve ter um construtor sem parametros
 
-A solução de cada problema deve ser implementada no método ```solve```.
+A solução de cada problema deve ser implementada no método `solve`.
 
 A entrada de dados vem de um arquivo seguindo a estrutura:
 ```bash
@@ -41,7 +41,7 @@ O método `solve` recebe como argumento `List<String>` que é o conteudo do arqu
 O resultado do método `solve` será comparado ao conteúdo do arquivo `out.txt` do teste sendo executado.
 
 ## Problema 0 (Exemplo)
-Na classe [euler.problems.p000.P000](src/main/java/euler/problems/p000/P000.java) implemente o método ```solve``` para que o mesmo faça o somatório dos números recebidos como argumento.
+Na classe [euler.problems.p000.P000](src/main/java/euler/problems/p000/P000.java) implemente o método `solve` para que o mesmo faça o somatório dos números recebidos como argumento.
 
 Exemplo de entrada (in.txt):
 ```
