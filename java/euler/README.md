@@ -13,8 +13,8 @@
 
 ## Informações
 Cada problema listado neste documento pode ser resolvido utilizando o projeto base `euler`. Para tal, você deve criar uma classe que siga as seguintes regras:
-- Deve estar dentro do pacote `euler.problems`
-- Implementar a interface [euler.problems.Problem.java](src/main/java/euler/problems/Problem.java)
+- Deve estar dentro do pacote `euler.problems.here`
+- Implementar a interface [euler.problems.Problem](src/main/java/euler/problems/Problem.java)
 - Deve ter um construtor sem parametros
 
 A solução de cada problema deve ser implementada no método `solve`.
