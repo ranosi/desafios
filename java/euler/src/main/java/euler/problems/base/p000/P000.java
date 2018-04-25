@@ -1,4 +1,4 @@
-package euler.problems.p000;
+package euler.problems.base.p000;
 
 import java.util.List;
 
