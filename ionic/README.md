@@ -16,5 +16,5 @@ Orientações:
 * Criar um projeto blank https://ionicframework.com/getting-started
 * Obter informações da plataforma: API Platform https://ionicframework.com/docs/api/platform/Platform
 * Lista de plataformas: ionic\problems\p001\platforms_ionic.txt
-* Saídas de exemplo: ionic\problems\p001\saidas\
+* Saídas exemplo: ionic\problems\p001\saidas\
 * CSS exemplo: ionic\problems\p001\style.css
