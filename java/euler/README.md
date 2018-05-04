@@ -111,6 +111,6 @@ Com base no exemplo de entrada, a saída esperada é:
         <li><a href="https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html#iterate-T-java.util.function.UnaryOperator-" style="font-family: monospace">Stream.iterate</a></li>
         <li><a href="https://docs.oracle.com/javase/8/docs/api/java/util/stream/Collectors.html#joining-java.lang.CharSequence-" style="font-family: monospace">Collectors.joining</a></li>
    <ul>
-</details>
+</details><br>
 
 Inspirado em [Project Euler #2](https://projecteuler.net/problem=2)
