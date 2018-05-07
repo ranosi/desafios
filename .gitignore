@@ -23,3 +23,5 @@ hs_err_pid*
 
 .*
 java/euler/target/*
+
+angular/my-app/node_modules/*
